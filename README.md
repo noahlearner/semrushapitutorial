@@ -1,5 +1,5 @@
-# SEMRUSH API Tutorial
-In this tutorial we're going to setup a NODE.js script found here: https://gist.github.com/noahlearner/fd93496858f0953b150e01d829b57f31 that will request your website's competitors from semrush APIs found here: https://www.semrush.com/api-analytics/ and then write the results up into Google BigQuery.
+# Semrush API Tutorial
+In this tutorial we're going to setup a NODE.js script found here: https://gist.github.com/noahlearner/fd93496858f0953b150e01d829b57f31 that will request your website's competitors from Semrush APIs found here: https://www.semrush.com/api-analytics/ and then write the results up into Google BigQuery.
 
 ## Code Setup Directions
 
@@ -49,7 +49,7 @@ Create a Google Service account. Directions on how to do that are here: https://
 ## Step 9 
 Edit the domain variable in the CONFIG SECTION below to point to the domain you'd like to get competitors for.
 ## Step 10 
-Copy your semrush API key from https://www.semrush.com/billing-admin/profile/subscription/api-units and paste it into the semrushapi variable in the CONFIG SECTION.
+Copy your Semrush API key from https://www.semrush.com/billing-admin/profile/subscription/api-units and paste it into the semrushapi variable in the CONFIG SECTION.
 ## Step 11 
 Run the script! 
 
