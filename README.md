@@ -1,6 +1,22 @@
 # Semrush API Tutorial
 In this tutorial we're going to setup a NODE.js script found here: https://gist.github.com/noahlearner/fd93496858f0953b150e01d829b57f31 that will request your website's competitors from Semrush APIs found here: https://www.semrush.com/api-analytics/ and then write the results up into Google BigQuery.
 
+While this is a "Hello World" type execution, it is a useful first step to working with the Semrush APIs.
+
+You will also start to see how this might be useful for executing a competitor analysis that might have several steps like:
+
+1. Get competitors
+2. Filter by competitor relevance, # of common keywords,  
+3. Write to BQ
+4. Create an array of competitors
+5. Go get all their keywords
+6. Find Gaps - compare all your keywords with their keywords
+7. Segment the keywords by, search volume, cpc, seasonality
+8. Make content strategy decisions
+9. Build content
+10. Promote content
+11. 🛳🍸 Boatdrinks!
+
 ## Code Setup Directions
 
 ## Step 1 
