@@ -19,6 +19,9 @@ You will also start to see how this might be useful for executing a competitor a
 
 ## Code Setup Directions
 
+You can follow this video for guidance:
+[![Semrush video turtorial](https://img.youtube.com/vi/yoYn0kLyXXw/0.jpg)](https://www.youtube.com/watch?v=yoYn0kLyXXw)
+
 ## Step 1 
 Download & Install a FREE Software program called Visual Studio Code (VSCode) from https://code.visualstudio.com/download
 ## Step 2 
