@@ -1,5 +1,5 @@
 # Semrush API Tutorial
-In this tutorial we're going to setup a NODE.js script found in this Gist: https://gist.github.com/noahlearner/fd93496858f0953b150e01d829b57f31 that will request your website's competitors from Semrush APIs found here: https://www.semrush.com/api-analytics/ and then write the results up into Google BigQuery.
+In this tutorial we're going to setup a NODE.js script found in this Gist: https://gist.githubusercontent.com/noahlearner/fd93496858f0953b150e01d829b57f31/raw/898fc7fc1d20e48a95b86234c7ee0dcd4a756411/index.js that will request your website's competitors from Semrush APIs found here: https://www.semrush.com/api-analytics/ and then write the results up into Google BigQuery.
 
 While this is a "Hello World" type execution, it is a useful first step to working with the Semrush APIs.
 
