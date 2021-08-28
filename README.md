@@ -1,5 +1,5 @@
 # Semrush API Tutorial
-In this tutorial we're going to setup a NODE.js script found here: https://gist.github.com/noahlearner/fd93496858f0953b150e01d829b57f31 that will request your website's competitors from Semrush APIs found here: https://www.semrush.com/api-analytics/ and then write the results up into Google BigQuery.
+In this tutorial we're going to setup a NODE.js script found in this Gist: https://gist.github.com/noahlearner/fd93496858f0953b150e01d829b57f31 that will request your website's competitors from Semrush APIs found here: https://www.semrush.com/api-analytics/ and then write the results up into Google BigQuery.
 
 While this is a "Hello World" type execution, it is a useful first step to working with the Semrush APIs.
 
@@ -30,7 +30,7 @@ Set Up Local environment.
     
     Setp 2C. Add create an empty file named index.js inside the folder.
     
-    Step 2D. Paste the contents of the [https://gist.github.com/noahlearner/fd93496858f0953b150e01d829b57f31](https://gist.github.com/noahlearner/fd93496858f0953b150e01d829b57f31) inside the newly created file and hit "Save" inside VSCode.
+    Step 2D. Paste the contents of the Gist listed above inside the newly created file and hit "Save" inside VSCode.
     
 ## Step 3 
 Open the Terminal inside VSCode. Hit Terminal > New Terminal
