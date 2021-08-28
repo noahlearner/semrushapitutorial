@@ -2,7 +2,7 @@
 ## Step 1. 
 Download & Install a FREE Software program called Visual Studio Code (VSCode) from https://code.visualstudio.com/download
 ## Step 2. 
-Set Up Local environment.
+Set Up Local environment. 
     Step 2A. Create a folder on your computer and name it 'semrush'.
     
     Step 2B. Open this folder in VSCode with File > Open....
