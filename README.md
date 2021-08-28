@@ -29,11 +29,11 @@ Create a Google Cloud Project. Directions are here: https://cloud.google.com/res
     
     Step 6B. Copy the value from the Project Info section.
     
-    Step 6C. Paste the value into theo ProjectId variable in the CONFIG SECTION below.
+    Step 6C. Paste the value into theo ProjectId variable in the CONFIG SECTION.
 ## Step 7. 
 Create a Google BigQuery Dataset. Directions are here: https://cloud.google.com/bigquery/docs/datasets#create-dataset
     
-    Step 7A. Copy the name and paste it into the dataset variable in the CONFIG SECTION below.
+    Step 7A. Copy the name and paste it into the dataset variable in the CONFIG SECTION.
 ## Step 8. 
 Create a Google Service account. Directions on how to do that are here: https://cloud.google.com/iam/docs/creating-managing-service-accounts
     
@@ -49,12 +49,12 @@ Create a Google Service account. Directions on how to do that are here: https://
 ## Step 9. 
 Edit the domain variable in the CONFIG SECTION below to point to the domain you'd like to get competitors for.
 ## Step 10. 
-Copy your semrush API key from https://www.semrush.com/billing-admin/profile/subscription/api-units and paste it into the semrushapi variable in the CONFIG SECTION below.
-## Step 10. 
+Copy your semrush API key from https://www.semrush.com/billing-admin/profile/subscription/api-units and paste it into the semrushapi variable in the CONFIG SECTION.
+## Step 11. 
 Run the script! 
 
     Type node index.js into VSCode terminal and hit enter or return.
-## Step 11. 
+## Step 12. 
 Celebrate!  
 
 You've just grabbed data from the Semrush API and written it up into BigQuery.  
