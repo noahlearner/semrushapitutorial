@@ -35,9 +35,9 @@ Set Up Local environment.
 ## Step 3 
 Open the Terminal inside VSCode. Hit Terminal > New Terminal
 ## Step 4 
-Type 'npm init' and hit enter or return inside the Terminal you just opened.  This will setup your Node environment. You'll be guided through a series of prompts, hit enter or return at each one.
+Type `npm init` and hit enter or return inside the Terminal you just opened.  This will setup your Node environment. You'll be guided through a series of prompts, hit enter or return at each one.
 ## Step 5 
-Type into terminal "npm install fs axios fs-ndjson googleapis @google-cloud/bigquery"  (no quotes) and hit enter or return
+Type into terminal `npm install fs axios fs-ndjson googleapis @google-cloud/bigquery` and hit enter or return
 ## Step 6 
 Create a Google Cloud Project. Directions are here: https://cloud.google.com/resource-manager/docs/creating-managing-projects#creating_a_project
     
