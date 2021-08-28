@@ -1,4 +1,8 @@
-# Code Setup Directions
+# SEMRUSH API Tutorial
+In this tutorial we're going to setup a NODE.js script found here: https://gist.github.com/noahlearner/fd93496858f0953b150e01d829b57f31 that will request your website's competitors from semrush APIs found here: https://www.semrush.com/api-analytics/ and then write the results up into Google BigQuery.
+
+## Code Setup Directions
+
 ## Step 1. 
 Download & Install a FREE Software program called Visual Studio Code (VSCode) from https://code.visualstudio.com/download
 ## Step 2. 
