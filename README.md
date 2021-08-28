@@ -30,7 +30,7 @@ Set Up Local environment.
     
     Setp 2C. Add create an empty file named index.js inside the folder.
     
-    Step 2D. Paste the contents of this Gist inside the newly created file and hit "Save" inside VSCode.
+    Step 2D. Paste the contents of the Gist https://gist.github.com/noahlearner/fd93496858f0953b150e01d829b57f31 inside the newly created file and hit "Save" inside VSCode.
     
 ## Step 3 
 Open the Terminal inside VSCode. Hit Terminal > New Terminal
