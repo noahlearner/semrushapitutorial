@@ -72,8 +72,7 @@ Edit the domain variable in the CONFIG SECTION below to point to the domain you'
 Copy your Semrush API key from https://www.semrush.com/billing-admin/profile/subscription/api-units and paste it into the semrushapi variable in the CONFIG SECTION.
 ## Step 11 
 Run the script! 
-
-    Type node index.js into VSCode terminal and hit enter or return.
+Type `node index.js` into VSCode terminal and hit enter or return.
 ## Step 12 
 Celebrate!  
 
