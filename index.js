@@ -76,7 +76,11 @@ async function helloSemrushWorld() {
         // sort options are np_desc, np_asc, cr_desc, cr_asc
         let displaySort = 'cr_desc';     
         
-        // This is the expected structure of this method's API call.  You could modify the apiURL to match the format of another API Call below.  
+        // This is the expected structure of this method's API call.  You could modify the apiURL to match the format of another API Call below.
+        // you might find it useful to paste the new example API request from Semrush below so you can see how the API expects you to structure your call.
+        // << PASTE NEW CALL HERE >>
+        
+        // This API Request is:
         // https://api.semrush.com/?type=domain_organic_organic&key=yourapikeywillgohere&display_limit=10&export_columns=Dn,Cr,Np,Or,Ot,Oc,Ad&domain=seobook.com&database=us
         let apiURL = `https://api.semrush.com/?type=${method}&key=${semrushApiKey}&display_limit=${limit}&export_columns=${columns}&domain=${domain}&display_sort=${displaySort}&database=${database}`;
         
