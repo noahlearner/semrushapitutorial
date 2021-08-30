@@ -48,7 +48,7 @@ Type into terminal `npm install fs axios fs-ndjson googleapis @google-cloud/bigq
 
 ## Step 6 
 Check if Node.js is installed on your machine and install if necessary.
-Type into terminal `node -v` and hit enter / return.  You should see a version like `v12.18.3` appear in the next line.
+Type into VSCode terminal `node -v` and hit enter / return.  You should see a version like `v12.18.3` appear in the next line.
 
 If there is no version, then you need to install Node.js on your machine.  To do so, go to https://nodejs.org/en/download/, download the installer, open it, and then run it. After you successfully install Node.js, head back to VSCode and type `node -v` into terminal again.  If you see the version now, you are ready to roll.
 
