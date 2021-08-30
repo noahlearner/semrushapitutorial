@@ -23,6 +23,8 @@ const table = 'domain_competitors';
 const semrushApiKey = 'replace this text with your api key';
 
 // edit the domain you want to grab competitors for
+// if you change the API method to one that doesn't have a domian in the API call, 
+// this variable will be for tracking which of your client's domains you want to aggregate data by.
 let domain = 'semrush.com';
 
 // Set the # of competitors that you want data for below.  
