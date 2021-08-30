@@ -102,4 +102,4 @@ If you head back over to your Cloud project at https://console.cloud.google.com/
 Click the table and the tables data will apper on the right.
 
 Click the word preview, and you'll be able to see the data you just added to BigQuery like the screenshot below:
-[![Domain Competitor data inside BigQuery](https://share.getcloudapp.com/eDuRy7QY)]
+[![Domain Competitor data inside BigQuery](https://p24.f4.n0.cdn.getcloudapp.com/items/eDuRy7QY/142278cf-7180-4f91-91da-8ae6275667ab.jpg?source=viewer&v=46f8c16845772358a13a96ced3190446)]
