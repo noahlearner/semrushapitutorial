@@ -103,3 +103,8 @@ Click the table and it will appear on the right.
 
 Click the word `PREVIEW`, and you'll be able to see the data you just added to BigQuery like the screenshot below:
 [![Domain Competitor data inside BigQuery](https://p24.f4.n0.cdn.getcloudapp.com/items/eDuRy7QY/142278cf-7180-4f91-91da-8ae6275667ab.jpg)]
+
+## Next Steps
+You can look and switch up the Semrush api call to get different types of data.  You will need to modify different variable names throughout the script.  You will also need to modify the BigQuery schema to match the expected response from Semrush.
+
+This will be covered in another upcoming tutorial!
