@@ -95,3 +95,11 @@ Celebrate!
 You've just grabbed data from the Semrush API and written it up into BigQuery.  
 
 The world is officially now your 🦪 oyster!!!
+
+## See the DATA
+If you head back over to your Cloud project at https://console.cloud.google.com/bigquery, You should see your projects on the left hand side.  Open your newly created project by clicking on the down arrow.  You will see your `semrush` dataset inside and if you click to open it you'll see your `domain_competitors` table inside. 
+
+Click the table and the tables data will apper on the right.
+
+Click the word preview, and you'll be able to see the data you just added to BigQuery like the screenshot below:
+[![Domain Competitor data inside BigQuery](https://share.getcloudapp.com/eDuRy7QY)]
