@@ -25,6 +25,7 @@ You can follow this video for guidance:
 
 ## Step 1 
 Download & Install a FREE Software program called Visual Studio Code (VSCode) from https://code.visualstudio.com/download
+
 ## Step 2 
 Set Up Local environment. 
 
@@ -38,41 +39,56 @@ Step 2D. Paste the contents of [index.js](index.js) listed above inside the newl
     
 ## Step 3 
 Open the Terminal inside VSCode. Hit Terminal > New Terminal
+
 ## Step 4 
 Type `npm init` and hit enter or return inside the Terminal you just opened.  This will setup your Node environment. You'll be guided through a series of prompts, hit enter or return at each one.
+
 ## Step 5 
 Type into terminal `npm install fs axios fs-ndjson googleapis @google-cloud/bigquery` and hit enter or return
+
 ## Step 6 
+Check if Node.js is installed on your machine and install if necessary.
+Type into terminal `node -v` and hit enter / return.  You should see a version like `v12.18.3` appear in the next line.
+
+If there is no version, then you need to install Node.js on your machine.  To do so, go to https://nodejs.org/en/download/, download the installer, open it, and then run it. After you successfully install Node.js, head back to VSCode and type `node -v` into terminal again.  If you see the version now, you are ready to roll.
+
+## Step 7
 Create a Google Cloud Project. Directions are here: https://cloud.google.com/resource-manager/docs/creating-managing-projects#creating_a_project
     
-Step 6A. Navigate to the project's home screen (Hamburger menu > Home) inside Google Cloud Console.
+Step 7A. Navigate to the project's home screen (Hamburger menu > Home) inside Google Cloud Console.
 
-Step 6B. Copy the value from the Project Info section.
+Step 7B. Copy the value from the Project Info section.
 
-Step 6C. Paste the value into theo ProjectId variable in the CONFIG SECTION.
-## Step 7 
+Step 7C. Paste the value into theo ProjectId variable in the CONFIG SECTION.
+
+## Step 8 
 Create a Google BigQuery Dataset. Directions are here: https://cloud.google.com/bigquery/docs/datasets#create-dataset
     
-Step 7A. Copy the name and paste it into the dataset variable in the CONFIG SECTION.
-## Step 8 
+Step 8A. Copy the name and paste it into the dataset variable in the CONFIG SECTION.
+
+## Step 9 
 Create a Google Service account. Directions on how to do that are here: https://cloud.google.com/iam/docs/creating-managing-service-accounts
 
-Step 8A. Give the Service Account 'BigQuery Admin' role. Directions are here: https://cloud.google.com/iam/docs/granting-changing-revoking-access
+Step 9A. Give the Service Account 'BigQuery Admin' role. Directions are here: https://cloud.google.com/iam/docs/granting-changing-revoking-access
 
-Step 8B. Create Service account JSON Keys files. Directions on how to do that are here: https://cloud.google.com/iam/docs/creating-managing-service-account-keys
+Step 9B. Create Service account JSON Keys files. Directions on how to do that are here: https://cloud.google.com/iam/docs/creating-managing-service-account-keys
 
-Step 8C. Download the file to your computer.
+Step 9C. Download the file to your computer.
 
-Step 8D. Rename the keys file to creds.json.
+Step 9D. Rename the keys file to creds.json.
 
-Step 8E. Move it into your newly created folder called 'semrush'.
-## Step 9 
+Step 9E. Move it into your newly created folder called 'semrush'.
+
+## Step 10 
 Edit the domain variable in the CONFIG SECTION below to point to the domain you'd like to get competitors for.
+
 ## Step 10 
 Copy your Semrush API key from https://www.semrush.com/billing-admin/profile/subscription/api-units and paste it into the semrushapi variable in the CONFIG SECTION.
+
 ## Step 11 
 Run the script! 
 Type `node index.js` into VSCode terminal and hit enter or return.
+
 ## Step 12 
 Celebrate!  
 
