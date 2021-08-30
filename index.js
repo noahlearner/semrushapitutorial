@@ -29,7 +29,6 @@ let domain = 'semrush.com';
 
 // Set the # of competitors that you want data for below.  
 // this method costs $0.0005 per row
-
 let limit = 3;
 
 /*
@@ -116,6 +115,7 @@ async function helloSemrushWorld() {
         }
 
         console.log(linesOut)
+        
         // Create objects from parsing lines
         // There will be as many objects as lines
         const objects = linesOut
@@ -138,7 +138,8 @@ async function helloSemrushWorld() {
         
         // add the JobId so we avoid duplicate data being pushed to BigQuery
         // if you wanted to use another API method, you'd have to updata the schema below to match the columns you chose above
-        // you'll need to edit the fields array with each item to have the field name to match that in the new response, and a type to match the typer of data, wheter it is a STRING, FLOAT, INTEGER
+        // you'll need to edit the fields array with each item to have the field name to match that in the new response, 
+        // and a type to match the typer of data, whether it is a STRING, FLOAT, INTEGER
         // learn about table field schema here: https://cloud.google.com/bigquery/docs/reference/rest/v2/tables#TableFieldSchema
         const metadata = {
             jobId: date + '-' + table + '-' + now,
