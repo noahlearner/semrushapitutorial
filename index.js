@@ -57,27 +57,29 @@ const date = new Date().toISOString().split('T')[0];
 const now = Date.now();
 
 async function helloSemrushWorld() {
-    // let request = req.query.message || req.body || 'Hello World!';
-    //console.log(request);
     
     try {
         
+        // this is the Semrush API method
+        // If you wanted to switch the method you could change the name below to match any of the methods at https://www.semrush.com/api-analytics/
+        let method = 'domain_organic_organic';
+        
         // See the complete list at https://www.semrush.com/api-analytics/#columns
-        // the available list for this method is 
+        // the available list for this API method is 
         // Dn,Cr,Np,Or,Ot,Oc,Ad
         let columns = 'Dn,Cr,Np,Or,Ot,Oc,Ad'
-
-        
 
         // see the complete list of availanble databases at: https://www.semrush.com/api-analytics/#databases
         let database = 'us';
         
         // sort options are np_desc, np_asc, cr_desc, cr_asc
-        let displaySort = 'cr_desc';
-
-        let method = 'domain_organic_organic';
+        let displaySort = 'cr_desc';     
+        
+        // This is the expected structure of this method's API call.  You could modify the apiURL to match the format of another API Call below.  
         // https://api.semrush.com/?type=domain_organic_organic&key=yourapikeywillgohere&display_limit=10&export_columns=Dn,Cr,Np,Or,Ot,Oc,Ad&domain=seobook.com&database=us
-        let response = await axios.get(`https://api.semrush.com/?type=${method}&key=${semrushApiKey}&display_limit=${limit}&export_columns=${columns}&domain=${domain}&display_sort=${displaySort}&database=${database}`, {
+        let apiURL = `https://api.semrush.com/?type=${method}&key=${semrushApiKey}&display_limit=${limit}&export_columns=${columns}&domain=${domain}&display_sort=${displaySort}&database=${database}`;
+        
+        let response = await axios.get(apiURL, {
             responseType: 'text',
             forcedJSONParsing: true
         })
@@ -133,6 +135,9 @@ async function helloSemrushWorld() {
 
         
         // add the JobId so we avoid duplicate data being pushed to BigQuery
+        // if you wanted to use another API method, you'd have to updata the schema below to match the columns you chose above
+        // you'll need to edit the fields array with each item to have the field name to match that in the new response, and a type to match the typer of data, wheter it is a STRING, FLOAT, INTEGER
+        // learn about table field schema here: https://cloud.google.com/bigquery/docs/reference/rest/v2/tables#TableFieldSchema
         const metadata = {
             jobId: date + '-' + table + '-' + now,
             sourceFormat: 'NEWLINE_DELIMITED_JSON',
