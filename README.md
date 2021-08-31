@@ -41,16 +41,16 @@ Step 2D. Paste the contents of [index.js](index.js) listed above inside the newl
 Open the Terminal inside VSCode. Hit Terminal > New Terminal
 
 ## Step 4 
-Type `npm init` and hit enter or return inside the Terminal you just opened.  This will setup your Node environment. You'll be guided through a series of prompts, hit enter or return at each one.
-
-## Step 5 
-Type into terminal `npm install fs axios fs-ndjson googleapis @google-cloud/bigquery` and hit enter or return
-
-## Step 6 
 Check if Node.js is installed on your machine and install if necessary.
 Type into VSCode terminal `node -v` and hit enter / return.  You should see a version like `v12.18.3` appear in the next line.
 
 If there is no version, then you need to install Node.js on your machine.  To do so, go to https://nodejs.org/en/download/, download the installer, open it, and then run it. After you successfully install Node.js, head back to VSCode and type `node -v` into terminal again.  If you see the version now, you are ready to roll.
+
+## Step 5 
+Type `npm init` and hit enter or return inside the Terminal you just opened.  This will setup your Node environment. You'll be guided through a series of prompts, hit enter or return at each one.
+
+## Step 6 
+Type into terminal `npm install fs axios fs-ndjson googleapis @google-cloud/bigquery` and hit enter or return
 
 ## Step 7
 Create a Google Cloud Project. Directions are here: https://cloud.google.com/resource-manager/docs/creating-managing-projects#creating_a_project
